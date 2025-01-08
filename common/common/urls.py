@@ -22,4 +22,5 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('daialy/', include('daialy.urls')),
+    path('pg003_query/', include('pg003_query.urls')),
 ]
