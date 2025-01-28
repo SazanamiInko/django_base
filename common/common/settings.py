@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "daialy",
     "pg003_query",
-    "pg005_smarturl"
+    "pg005_smarturl",
+    "pg006_urlcalc"
 ]
 
 MIDDLEWARE = [
@@ -67,7 +68,8 @@ TEMPLATES = [
                 "django.contrib.messages.context_processors.messages",
                 "daialy",
                 "pg003_query",
-                "pg005_smarturl"
+                "pg005_smarturl",
+                "pg006_urlcalc"
             ],
         },
     },
