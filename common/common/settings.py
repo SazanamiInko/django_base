@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     "pg003_query",
     "pg005_smarturl",
     "pg006_urlcalc",
-    "pg007_statictemp"
+    "pg007_statictemp",
+    "pg008_dynamic"
 ]
 
 MIDDLEWARE = [
