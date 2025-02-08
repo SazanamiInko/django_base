@@ -27,5 +27,6 @@ urlpatterns = [
     path('pg006_urlcalc/',include('pg006_urlcalc.urls')),
     path('pg007_statictemp/',include('pg007_statictemp.urls')),
     path('pg008_dynamic/',include('pg008_dynamic.urls')),
-    path('pg009_pagemove/',include('pg009_pagemove.urls'))
+    path('pg009_pagemove/',include('pg009_pagemove.urls')),
+    path('pg010_css/',include('pg010_css.urls'))
 ]

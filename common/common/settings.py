@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     "pg006_urlcalc",
     "pg007_statictemp",
     "pg008_dynamic",
-    "pg009_pagemove"
+    "pg009_pagemove",
+    "pg010_css"
 ]
 
 MIDDLEWARE = [
