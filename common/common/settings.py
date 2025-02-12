@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     "pg007_statictemp",
     "pg008_dynamic",
     "pg009_pagemove",
-    "pg010_css"
+    "pg010_css",
+    "pg011_boot_strap"
 ]
 
 MIDDLEWARE = [
