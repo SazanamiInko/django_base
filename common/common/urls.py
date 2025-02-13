@@ -29,5 +29,6 @@ urlpatterns = [
     path('pg008_dynamic/',include('pg008_dynamic.urls')),
     path('pg009_pagemove/',include('pg009_pagemove.urls')),
     path('pg010_css/',include('pg010_css.urls')),
-    path('pg011_boot_strap/',include('pg011_boot_strap.urls'))
+    path('pg011_boot_strap/',include('pg011_boot_strap.urls')),
+    path('pg012_post/',include('pg012_post.urls'))
 ]
