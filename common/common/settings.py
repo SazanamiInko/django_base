@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     "pg009_pagemove",
     "pg010_css",
     "pg011_boot_strap",
-    "pg012_post"
+    "pg012_post",
+    "pg013_makeview"
 ]
 
 MIDDLEWARE = [
