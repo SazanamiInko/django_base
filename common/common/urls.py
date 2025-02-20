@@ -32,5 +32,6 @@ urlpatterns = [
     path('pg011_boot_strap/',include('pg011_boot_strap.urls')),
     path('pg012_post/',include('pg012_post.urls')),
     path('pg013_makeview/',include('pg013_makeview.urls')),
-    path('pg014_get_post_view/',include('pg014_get_post_view.urls'))
+    path('pg014_get_post_view/',include('pg014_get_post_view.urls')),
+    path('pg015_form_class/',include('pg015_form_class.urls'))
     ]
