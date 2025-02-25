@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     "pg012_post",
     "pg013_makeview",
     "pg014_get_post_view",
-    "pg015_form_class"
+    "pg015_form_class",
+    "pg016_as_table"
 ]
 
 MIDDLEWARE = [
