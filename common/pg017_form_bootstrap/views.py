@@ -6,4 +6,4 @@ from .forms import MemberForm
 def member(request):
  params={'form':MemberForm(),
          'title':'会員登録'};
- return render(request,'pg017_form_bootstrap/member.html',params);
+ return render(request,'pg016_as_table/member.html',params);
