@@ -35,6 +35,7 @@ urlpatterns = [
     path('pg014_get_post_view/',include('pg014_get_post_view.urls')),
     path('pg015_form_class/',include('pg015_form_class.urls')),
     path('pg016_as_table/',include('pg016_as_table.urls')),
-    path('pg017_form_bootstrap/',include('pg017_form_bootstrap.urls'))
-    
+    path('pg017_form_bootstrap/',include('pg017_form_bootstrap.urls')),
+    path('pg018_view_class/',include('pg018_view_class.urls'))
     ]
+
