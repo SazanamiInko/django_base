@@ -52,7 +52,8 @@ INSTALLED_APPS = [
     "pg015_form_class",
     "pg016_as_table",
     "pg017_form_bootstrap",
-    "pg018_view_class"
+    "pg018_view_class",
+    "pg019_maxlength"
 ]
 
 MIDDLEWARE = [
