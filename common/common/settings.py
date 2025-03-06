@@ -54,7 +54,8 @@ INSTALLED_APPS = [
     "pg017_form_bootstrap",
     "pg018_view_class",
     "pg019_maxlength",
-    "pg020_freespace"
+    "pg020_freespace",
+    "pg021_email_input"
 ]
 
 MIDDLEWARE = [
