@@ -55,7 +55,8 @@ INSTALLED_APPS = [
     "pg018_view_class",
     "pg019_maxlength",
     "pg020_freespace",
-    "pg021_email_input"
+    "pg021_email_input",
+    'pg022_float_input'
 ]
 
 MIDDLEWARE = [
