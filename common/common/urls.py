@@ -41,7 +41,9 @@ urlpatterns = [
     path('pg020_freespace/',include('pg020_freespace.urls')),
     path('pg021_email_input/',include('pg021_email_input.urls')),
     path('pg022_float_input/',include('pg022_float_input.urls')),
-    path('pg023_date/',include('pg023_date.urls'))
+    path('pg023_date/',include('pg023_date.urls')),
+    path('pg024_strtofloat/',include('pg024_strtofloat.urls'))
     ]
+
 
 

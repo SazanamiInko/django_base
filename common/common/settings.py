@@ -57,7 +57,8 @@ INSTALLED_APPS = [
     "pg020_freespace",
     "pg021_email_input",
     'pg022_float_input',
-    'pg023_date'
+    'pg023_date',
+    'pg024_strtofloat'
 ]
 
 MIDDLEWARE = [
