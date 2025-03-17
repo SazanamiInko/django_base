@@ -43,8 +43,8 @@ urlpatterns = [
     path('pg022_float_input/',include('pg022_float_input.urls')),
     path('pg023_date/',include('pg023_date.urls')),
     path('pg024_strtofloat/',include('pg024_strtofloat.urls')),
-    path('pg025_numeric_only/',include('pg025_numeric_only.urls'))
-
+    path('pg025_numeric_only/',include('pg025_numeric_only.urls')),
+path('pg026_checkbox/',include('pg026_checkbox.urls'))
     ]
 
 
