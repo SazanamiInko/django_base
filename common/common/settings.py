@@ -60,7 +60,8 @@ INSTALLED_APPS = [
     'pg023_date',
     'pg024_strtofloat',
     'pg025_numeric_only',
-    'pg026_checkbox'
+    'pg026_checkbox',
+    'pg027_yesno'
 ]
 
 MIDDLEWARE = [
