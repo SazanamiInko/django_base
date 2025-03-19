@@ -45,8 +45,8 @@ urlpatterns = [
     path('pg024_strtofloat/',include('pg024_strtofloat.urls')),
     path('pg025_numeric_only/',include('pg025_numeric_only.urls')),
     path('pg026_checkbox/',include('pg026_checkbox.urls')),
-    path('pg027_yesno/',include('pg027_yesno.urls'))
+    path('pg027_yesno/',include('pg027_yesno.urls')),
+    path('pg028_choice/',include('pg028_choice.urls'))
     ]
-
 
 
