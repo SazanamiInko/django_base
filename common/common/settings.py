@@ -62,7 +62,8 @@ INSTALLED_APPS = [
     'pg025_numeric_only',
     'pg026_checkbox',
     'pg027_yesno',
-    'pg028_choice'
+    'pg028_choice',
+    'pg029_radiobutton'
 ]
 
 MIDDLEWARE = [
