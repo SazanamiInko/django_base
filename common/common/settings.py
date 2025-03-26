@@ -64,7 +64,8 @@ INSTALLED_APPS = [
     'pg027_yesno',
     'pg028_choice',
     'pg029_radiobutton',
-    'pg030_listbox'
+    'pg030_listbox',
+    'pg031_session'
 ]
 
 MIDDLEWARE = [
