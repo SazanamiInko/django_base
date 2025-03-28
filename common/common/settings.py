@@ -65,7 +65,8 @@ INSTALLED_APPS = [
     'pg028_choice',
     'pg029_radiobutton',
     'pg030_listbox',
-    'pg031_session'
+    'pg031_session',
+    'pg032_middleware'
 ]
 
 MIDDLEWARE = [
@@ -76,6 +77,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "pg032_middleware.views.member_middleware"
 ]
 
 ROOT_URLCONF = "common.urls"
