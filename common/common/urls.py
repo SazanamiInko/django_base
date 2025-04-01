@@ -50,7 +50,8 @@ urlpatterns = [
     path('pg029_radiobutton/',include('pg029_radiobutton.urls')),
     path('pg030_listbox/',include('pg030_listbox.urls')),
     path('pg031_session/',include('pg031_session.urls')),
-    path('pg032_middleware/',include('pg032_middleware.urls'))
+    path('pg032_middleware/',include('pg032_middleware.urls')),
+    path('pg033_sessionlist/',include('pg033_sessionlist.urls'))    
     ]
 
 
