@@ -67,7 +67,8 @@ INSTALLED_APPS = [
     'pg030_listbox',
     'pg031_session',
     'pg032_middleware',
-    'pg033_sessionlist'
+    'pg033_sessionlist',
+    'pg034_session_timeout'
 ]
 
 MIDDLEWARE = [
