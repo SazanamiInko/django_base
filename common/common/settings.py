@@ -68,7 +68,8 @@ INSTALLED_APPS = [
     'pg031_session',
     'pg032_middleware',
     'pg033_sessionlist',
-    'pg034_session_timeout'
+    'pg034_session_timeout',
+    'pg035_sqlite_connect'
 ]
 
 MIDDLEWARE = [

@@ -52,7 +52,8 @@ urlpatterns = [
     path('pg031_session/',include('pg031_session.urls')),
     path('pg032_middleware/',include('pg032_middleware.urls')),
     path('pg033_sessionlist/',include('pg033_sessionlist.urls')),
-    path('pg034_session_timeout/',include('pg034_session_timeout.urls'))    
+    path('pg034_session_timeout/',include('pg034_session_timeout.urls')) ,  
+    path('pg035_sqlite_connect/',include('pg035_sqlite_connect.urls'))     
     ]
 
 
