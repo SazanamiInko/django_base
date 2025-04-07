@@ -111,6 +111,10 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
+    },
+    "test_result": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME":r'C:\Users\Public\Documents\data\django\pg035\20250406.sqlite3',
     }
 }
 
