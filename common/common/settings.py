@@ -69,7 +69,8 @@ INSTALLED_APPS = [
     'pg032_middleware',
     'pg033_sessionlist',
     'pg034_session_timeout',
-    'pg035_sqlite_connect'
+    'pg035_sqlite_connect',
+    'pg036_mysql_connect'
 ]
 
 MIDDLEWARE = [
@@ -115,6 +116,18 @@ DATABASES = {
     "test_result": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME":r'C:\Users\Public\Documents\data\django\pg035\20250406.sqlite3',
+    },
+    "pokapoka":
+    {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME":r'uriage',       
+        'USER': 'root',
+        'PASSWORD': 'p0kap0ka',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        } 
     }
 }
 
